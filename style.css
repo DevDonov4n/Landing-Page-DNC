@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+
+}.banner > h1, p, img{
+    background-color: transparent;
+    
+}.banner > #logo{
+    margin: 50px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+}.banner-text > #bannerTitle{
+    color: white;
+    font-size: 50px;
+    margin-top: 2rem;
+    margin-left: 150px;
+}.banner-text > #bannerInfo{
+    color: white;
+    margin-top: 5rem;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+#conteudo-icons{
+    background-color: #EAECE5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25vh;
+    align-items: center;
+
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    color: #122235;
+}.grid > h1{
+    margin: 1rem;
+    font-weight: 200;
+}.grid > img{
+    width: 15%;
+}
+
+
+.infor-vid{
+
+    justify-self: space-around;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10vh;
+    margin-left: 5rem;
+    margin-right: 5rem;    
+
+}.infor-vid > iframe{
+    width: 130vh;
+    height: 40vh;
+    border-radius: 40px;
+
+}.infor-vid > .txt-info{
+    margin-left: 4rem;
+}
+
+.txt-info > #titleInfor-vid{
+    color: #247BA0;
+}.txt-info > #infoVid{
+    margin-top: 8vh;
+    color: #383838;
+    font-size: large;
+}
+
+
+.carroussel{
+    background-color: #247BA0;
+    height: 60vh;
+    color: #EAECE5;
+}.carroussel > #carroussel-title{
+    justify-self: center;
+    padding: 4rem;
+}
+
+.carroussel-cards > img{
+ margin-left: 3rem;
+ margin-right: 3rem;
+}
+
+.carroussel-cards > img:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+}
+
+#div-cards{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 1rem 3vh 1rem 3vh;
+
+}
+
+#setaEsquerda{
+    display: none;
+}
+
+#card{
+    display: none;
+}
+#samantha{
+    display: none;
+}
+
+.seta{
+    margin-top: 3.5rem;
+    display: flex;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.formulario{
+    text-align: center;
+}.formulario > h1{
+    color: #247BA0;
+    margin: 6vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    border-radius:10px ;
+    width: 413px;
+    height: 60px;
+    background-color: #EAECE5;
+    padding-left: 30px;
+    margin:2vh;
+    align-self: center;
+}
+
+button{
+    width: 413px;
+    height: 60px;
+    align-self: center;
+    margin: 8vh;
+
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #247BA0;
+    color: white;
+}
+
+button:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+    box-shadow: #383838 0px 0px 10px 0px;
+}
+
+
+ @media (min-width: 320px) and (max-width: 667px){
+    
+ }

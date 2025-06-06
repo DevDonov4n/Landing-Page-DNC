@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page DNC</title>
+</head>
+<body>
+    <!-- Banner-->
+    <div class="banner">
+        <img id="logo" src="img/logoDNC.png" alt="">
+        <div class="banner-text">
+            <h1 id="bannerTitle">Dê os primeiros passos da<br>sua carreira em Tecnologia</h1>
+            <p id="bannerInfo">Inscreva-se no curso gratuito de Introdução à<br>Tecnologia da DNC School e aprenda os principais<br>fundamentos para construir experiências efetivas.</p>
+        </div>
+
+    </div>
+    <!-- Icons-->
+    <section id="conteudo-icons">
+
+        <div class="grid certificado">
+            <img src="img/certificado.png" alt="">
+            <h1 id="certificadoDNC">Certificado de conclusão</h1>
+        </div>
+
+        <div class="grid horas">
+            <img src="img/relogio.png" alt="">
+            <h1 id="horasConteudo">4 horas de conteúdo</h1>
+        </div>
+        
+        <div class="grid aulaGravada">
+             <img src="img/aulaGravada.png" alt="">
+        <h1 id="aulaGravada">Aulas online gravadas</h1>
+        </div>
+       
+    </section>
+    <!-- Seção do video-->
+    <div class="infor-vid">
+
+        <iframe width="1544" height="575" src="https://www.youtube.com/embed/Zt2nJcs219c"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <div class="txt-info">
+            <h1 id="titleInfor-vid">Aprenda com especialistas e comece seu primeiro projeto</h1>
+            <p id="infoVid">Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.<br><br>Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+        </div>
+        
+    </div>
+    <!-- Carrousel-->
+    <div class="carroussel">
+        <h1 id="carroussel-title">Mais de 500 alunos já iniciaram seus estudos</h1>
+        <!--Divisao dos cards-->
+        
+        <div class="carroussel-cards" id="div-cards">
+            <img src="img/setaEsquerda.svg" onclick="rolarEsquerda()" alt="" id="setaEsquerda" class="seta">
+            <img src="img/Samantha.svg" alt="" class="card" id="samantha">
+            <img class="card" src="img/Leonardo.svg" alt="" id="leonardo">
+            <img class="card" src="img/Bruna.svg" alt="" id="bruna">
+            <img src="img/setaDireita.svg" onclick="rolarDireita()" alt="" id="setaDireita" class="seta">
+        </div>
+
+    </div>
+<!-- Formulario-->
+    <div class="formulario">
+        <h1>Comece agora mesmo e dê o próximo passo!</h1>
+        <form action="https://api.sheetmonkey.io/form/5YNy6A4b8LU5r6nDYCMVjK" method="post">
+            <input type="text" name="Name" id="nome" placeholder="Nome" required>
+            <input type="email" name="Email" id="email" placeholder="E-mail" required>
+            <input type="number" name="Telefone" id="telefone" placeholder="Telefone">
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+
+            <button type="submit">Acesse a  Ementa Grátis</button>
+            
+        </form>
+    </div>
+</body>
+</html>
